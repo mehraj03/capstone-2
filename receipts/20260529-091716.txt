@@ -1,0 +1,9 @@
+==== ORDER DETAIL ====
+4"whitesandwich - $7.0
+  Meat: steakextra
+   Topping: yes
+   Topping: done 
+   Toasted
+
+---------------
+Total: $7.0

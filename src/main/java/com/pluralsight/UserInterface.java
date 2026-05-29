@@ -81,9 +81,10 @@ public class UserInterface {
             boolean extraCheese = scanner.nextLine().equalsIgnoreCase("yes");
             sandwich.setCheese((new Cheese(cheeseName,size,extraCheese)));
         }
+        System.out.println("Regular toppings: lettuce, peppers, onions, tomatoes, jalapeños, cucumbers, pickles, guacamole, mushrooms");
         boolean addingToppings = true;
         while (addingToppings) {
-            System.out.print("Add a regular topping )pr type 'done'): ");
+            System.out.print("Add a regular topping (or type 'done'): ");
             String topping = scanner.nextLine();
             if (topping.equalsIgnoreCase("done")) {
                 addingToppings = false;
@@ -91,6 +92,7 @@ public class UserInterface {
                 sandwich.addRegularTopping(topping);
             }
         }
+        System.out.println("Sauces: mayo, mustard, ketchup, ranch, thousand islands, vinaigrette");
         boolean addingSauces = true;
         while (addingSauces) {
             System.out.print("Add a sauce (or type 'done'): ");

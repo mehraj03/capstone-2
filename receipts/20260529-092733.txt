@@ -1,0 +1,5 @@
+==== ORDER DETAIL ====
+utzchips -$1.5
+smalldrink - $2.0
+---------------
+Total: $3.5
