@@ -30,7 +30,6 @@ Receipts are saved to a `receipts/` folder in the project root, named by the dat
 
 Before writing any code, I sketched out the classes and relationships I thought I'd need. I started with an abstract Topping class (with RegularTopping and PremiumTopping subclasses) and the Priceable interface implemented by Sandwich, Drinks, and Chips.
 
-![Initial Class Diagram](class-diagram-initial.png)
 
 ### Final design
 
