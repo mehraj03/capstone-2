@@ -58,7 +58,7 @@ Receipts are saved to a `receipts/` folder in the project root, named by the dat
 ### Initial design
 This was my starting point — designed before I wrote any code.
 
-
+ 
 
 ### Final design
 As I built the project, my design evolved. The biggest changes were:
